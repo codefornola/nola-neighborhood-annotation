@@ -3,7 +3,7 @@
 I wrote this script after reading [Jeff Asher's blog post](https://nolacrimenews.com/2016/07/30/another-terrific-update-to-data-nola-gov/).
 He mentioned that it was hard to segment the call for service data by neighborhood given just the lat, lng.
 This script adds a new column to the data with the neighborhood name of the origin call using the neighborhood boundaries
-[from this dataset](https://data.nola.gov/Geographic-Base-Layers/NOLA-Neighborhood-Statistical-Areas/ukvx-5dku).
+[from this dataset](http://portal-nolagis.opendata.arcgis.com/datasets/e7daa4c977d14e1b9e2fa4d7aff81e59_0.zip).
 
 I have the provided the [annotated 2016 data](data/calls_for_service/2016_annotated.csv) as an example
 but this will work with the other years as well. This can also be adapted to work with any type of data.
